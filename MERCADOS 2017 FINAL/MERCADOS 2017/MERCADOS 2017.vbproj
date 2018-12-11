@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4D1346E-DF7C-4074-9277-0FBED4A4F3A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MERCADOS_2917.My.MyApplication</StartupObject>
+    <RootNamespace>MERCADOS_2917</RootNamespace>
+    <AssemblyName>MERCADOS 2017</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MERCADOS 2017.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MERCADOS 2017.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ALMACENES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ALMACENES.Designer.vb">
+      <DependentUpon>ALMACENES.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ALMACEN_FRUTAS.Designer.vb">
+      <DependentUpon>ALMACEN_FRUTAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ALMACEN_FRUTAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRUTAS.Designer.vb">
+      <DependentUpon>FRUTAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRUTAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ALMACENES_MERCADOS.Designer.vb">
+      <DependentUpon>ALMACENES_MERCADOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ALMACENES_MERCADOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FACTURACION.Designer.vb">
+      <DependentUpon>FACTURACION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FACTURACION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INICIO.Designer.vb">
+      <DependentUpon>INICIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="INICIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MERCADOS.Designer.vb">
+      <DependentUpon>MERCADOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MERCADOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MERCADOSdelALMACEN.Designer.vb">
+      <DependentUpon>MERCADOSdelALMACEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MERCADOSdelALMACEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MERCADOS_PUESTOS.Designer.vb">
+      <DependentUpon>MERCADOS_PUESTOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MERCADOS_PUESTOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PROPIETARIOS.Designer.vb">
+      <DependentUpon>PROPIETARIOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PROPIETARIOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PUESTOS.Designer.vb">
+      <DependentUpon>PUESTOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUESTOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PUESTOSdelMERCADO.Designer.vb">
+      <DependentUpon>PUESTOSdelMERCADO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUESTOSdelMERCADO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PUESTOS_FRUTAS.Designer.vb">
+      <DependentUpon>PUESTOS_FRUTAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUESTOS_FRUTAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STOCK_ALMACEN.Designer.vb">
+      <DependentUpon>STOCK_ALMACEN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STOCK_ALMACEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STOCK_PUESTOS.Designer.vb">
+      <DependentUpon>STOCK_PUESTOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STOCK_PUESTOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ALMACENES.resx">
+      <DependentUpon>ALMACENES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALMACEN_FRUTAS.resx">
+      <DependentUpon>ALMACEN_FRUTAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRUTAS.resx">
+      <DependentUpon>FRUTAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALMACENES_MERCADOS.resx">
+      <DependentUpon>ALMACENES_MERCADOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FACTURACION.resx">
+      <DependentUpon>FACTURACION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INICIO.resx">
+      <DependentUpon>INICIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MERCADOS.resx">
+      <DependentUpon>MERCADOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MERCADOSdelALMACEN.resx">
+      <DependentUpon>MERCADOSdelALMACEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MERCADOS_PUESTOS.resx">
+      <DependentUpon>MERCADOS_PUESTOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PROPIETARIOS.resx">
+      <DependentUpon>PROPIETARIOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUESTOS.resx">
+      <DependentUpon>PUESTOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUESTOSdelMERCADO.resx">
+      <DependentUpon>PUESTOSdelMERCADO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUESTOS_FRUTAS.resx">
+      <DependentUpon>PUESTOS_FRUTAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STOCK_ALMACEN.resx">
+      <DependentUpon>STOCK_ALMACEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STOCK_PUESTOS.resx">
+      <DependentUpon>STOCK_PUESTOS.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mercados 2017.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
